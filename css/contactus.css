@@ -1,0 +1,59 @@
+.contactUs {
+  max-width: 1120px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.iconBox {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.iconBox .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #30336b;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.iconBox .icon span {
+  font-size: 20px;
+  color: #fff;
+}
+
+.formStyle {
+  margin: 2rem 0rem;
+  padding-bottom: 2em;
+  background-color: #fafafa;
+}
+
+.formStyle h1 {
+  padding: 20px 0px;
+}
+
+.formStyle p a {
+  color: #30336b !important;
+}
+
+#map {
+  margin-top: 2em;
+}
+iframe {
+  border: 0;
+  height: 590px;
+  width: 530px;
+}
+
+.form-group small {
+  visibility: hidden;
+}
+
+.form-group.error small {
+  color: red;
+  visibility: visible;
+}

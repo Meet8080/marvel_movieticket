@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/movie-song.css" />
+    <title>Movie Ticket</title>
+</head>
+
+<body>
+    <nav id="navbar"></nav>
+
+    <header id="dynamic-header"></header>
+    <div class="text-center">
+        <h1 class="musicHeading">Marvel Music Playlist</h1>
+    </div>
+    <div class='song-card' id='card'>
+        <div id='display' class='display-song'>
+            <div id='header'>
+                <h1 id='title'></h1>
+                <p>
+                    <span id='song_title'></span>
+                </p>
+            </div>
+            <div id='image'>
+                <img src='' alt='' id='song-img' height='200px' width='200px' />
+            </div>
+            <div class="audio">
+                <audio controls src='' id='audio'></audio>
+            </div>
+        </div>
+        <div id='list' class='song-list'>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2021 Amit Patel and Meet Patel. All Rights Reserved.<br>
+      </footer>
+ 
+    <script src="js/common.js"></script>
+    <script src="js/movie-song.js"></script>
+</body>
+
+</html>

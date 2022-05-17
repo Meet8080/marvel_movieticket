@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css" />
+  <link rel="stylesheet" href="css/movie-ticket.css" />
+  <title>Movie Seat Booking</title>
+</head>
+
+<body>
+  <nav id="navbar"></nav>
+
+  <header id="dynamic-header"></header>
+
+  <div class="movie-ticket">
+    <div class="movie-container">
+      <label><b>Pick a movie:</b></label>
+      <select id="movie">
+        <option value="12">Avengers: Endgame ($12)</option>
+        <option value="10">Avenger: Infinity War ($10)</option>
+        <option value="9">Ironman ($9)</option>
+        <option value="8">Thor ($8)</option>
+      </select>
+
+      <div class="asd"> 
+        <ul class="showcase">
+          <li>
+            <div class="seat"></div>
+            <small><b>Available</b></small>
+          </li>
+          <li>
+            <div class="seat selected"></div>
+            <small><b>Selected</b></small>
+          </li>
+          <li>
+            <div class="seat occupied"></div>
+            <small><b>Booked</b></small>
+          </li>
+        </ul>
+
+        <div class="container">
+          <div class="screen">
+            <p class="screen-area">Your Screen</p>
+          </div>
+          <div id="seat-chairs"></div>
+        </div>
+        <div class="confirm">
+          <p class="text">
+            You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+          </p>
+          <button class="btn btn-info" id="book-ticket">Confirm your ticket</button>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    Copyright &copy; 2021 Amit Patel and Meet Patel. All Rights Reserved.<br>
+  </footer>
+
+  <script src="js/sweetalert.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/movie-ticket.js"></script>
+</body>
+
+</html>

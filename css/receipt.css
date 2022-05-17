@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.movie-container {
+  margin: 0px 20px;
+}
+/* .text-center {
+    text-align: center;
+    margin: 2em 0;
+
+} */
+
+.receipt-header {
+  color: #fa233b;
+}
+
+#heading {
+  text-align: center;
+  margin: 1.5em 0;
+}

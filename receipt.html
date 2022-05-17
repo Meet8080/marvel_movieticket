@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/receipt.css" />
+  <title>Movie Ticket</title>
+</head>
+
+<body>
+
+  <div class="movie-container" id="invoice">
+    <div class="row">
+      <div class="receipt-content">
+        <div class="row receipt-header">
+          <div class="col-xs-6 col-sm-6 col-md-6">
+            <address>
+              <strong>Marvel Movie House</strong>
+              <br>
+              Conestoga College
+              <br>
+              299 Doon Valley Dr,Kitchener, ON N2G 4M4, Canada
+              <br>
+              Phone:123-456-7890
+            </address>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+            <p>
+              <em id="date"></em>
+            </p>
+            <p>
+              <em id="receiptNo"></em>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          
+          <h2 id="heading">Booking Info.</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Movie</th>
+                <th>Total Ticket</th>
+                <th class="text-center">Price</th>
+                <th class="text-center">Total</th>
+              </tr>
+            </thead>
+            <tbody id="receiptData"></tbody>
+          </table>
+        </div>
+        <p>*Please take a screenshot of your invoice to show at Movie theater. Without Screenshot of invoice you can not
+          enter at theater.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-12 text-center mb-4">
+        <button class="btn btn-danger" id="gotoHome">
+          Go To Home Page
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="js/sweetalert.min.js"></script>
+  <script src="js/receipt.js"></script>
+</body>
+
+</html>
